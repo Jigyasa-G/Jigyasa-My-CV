@@ -1,1 +1,239 @@
+/************************************tag-selectors*****************************/
+body{
+
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+
+
+h1{
+  color: #66BFBF;
+  font-family: 'Allura', cursive;
+  font-size: 120px;
+  line-height: 200%;
+/*   width: 10%
+  margin: 50px auto 0 auto;
+ font-weight: bold;*/
+}
+
+
+h2{
+  color: #66BFBF;
+  font-size: 200%;
+  font-weight: normal;
+/************* 1 em= 16px = 100%******** rem better than em ******************/
+}
+
+
+h3{
+display: inline-block;
+color: #11999E;
+  font-size: 1.8625rem;
+  margin: 25px 0px;
+
+}
+
+
+a{
+  color: white;
+  padding: 20px;
+  /*#11999E;*/
+}
+
+
+p{color:#4f5656;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+/*float: left;
+  font-family: serif;
+color: #40514E;*/}
+
+
+div{
+  /*display: list-item;*/
+  line-height: 35px;
+  /*display:inline-block;*/
+
+}
+
+img:hover {
+  transform: scaleX(-1);
+  /*opacity: 0.5;*/
+}
+
+hr{
+  height: 0px;
+  width:10%;
+  border-style: dotted;
+  border-width: 5px 0 0;
+  margin: 50px auto;
+  color:#afbaba;
+}
+
+
+/*img{
+  width: 30%;
+}*/
+
+
+
+/*****************************Class Selectors**********************************/
+
+.top-container {
+
+    background-color:#c5fee3;
+    /*caf7e3 rgb(169, 241, 223)*/
+    padding-top: 100px;
+    position: relative;
+  }
+
+/*.top-container
+{
+  background-color: #caf7e3;
+  text-align: center;
+  padding-top: 50px;
+
+  position: relative;
+}*/
+
+
+.top-cloud
+{
+  position: absolute;
+  display: inline-block;
+  left: 200px;
+  margin-right: 550px;
+  /*padding-bottom: 30px;
+  position: absolute;
+  text-align: inherit;*/
+}
+
+
+.bottom-cloud
+{
+  position: absolute;
+  right: 200px;/********wrt div**********************************************/
+  /*position: fixed; *****makes the cloud fixed to screen while scrolling******/
+}
+
+.profile{
+  margin-top: 40px;
+}
+
+
+.skill-row{
+  padding: 5%;
+}
+
+.en
+{
+  text-decoration: underline;
+}
+
+
+.Entrepreneur
+{
+  color: #514c4c;
+  font-weight: bold;
+}
+
+.middle-container{
+    display: inline-block;
+}
+
+
+
+
+/*.skill-image{*/
+
+
+
+
+.computer{
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+}
+  }
+
+  img.programmer{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+  }
+
+
+.contact{
+  /*float:left;
+  height:40px;
+  width: 40px;*/
+  width: 7%;
+
+  margin-right: 20px;
+
+}
+
+
+.contact-me{
+  line-height: 50px;
+padding: 100px 177px;
+
+}
+
+.contact-block{
+  /**display: inline-block; **/
+}
+.Skills{
+  float: left;
+  }
+
+
+  .bottom-container
+  {
+    background-color: #66BFBF;
+    padding: 40px 50px 10px 50px ;
+  }
+
+
+  .btn
+  {
+    background-color: #66BFBF;
+    color: white;
+    border-radius: 10em;
+    padding:10px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+
+
+  .copyright
+  {
+    color: black;
+    padding-top: 30px;
+    margin-bottom: 10px;
+  }
+
+
+/* .one{background-color:#a9f1df;
+padding: 20px;
+height: 200px;
+width: 200px;
+border: solid 10px;
+/*margin: 10px*/}
+
+/*.first{background-color: red;
+  height: 200px;
+  align-self: center;
+  border: solid 20px;
+/***FOR CENTRE ALIGN OF BOX
+  margin-left: auto;
+  margin-right: auto;  ***/
+  /*margin-left: 260PX;
+  width: 200px;}
+
+.second{background-color: YELLOW;
+height: 200px;
+border: solid 10px;
+margin-left: 500PX;
+width:200px;}
 
